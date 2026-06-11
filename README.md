@@ -6,7 +6,7 @@ En esta demo puedes ver un **Smart Study Assistant** con **arquitectura de asist
 
 **Requisitos:** Python 3.10+.
 
-**API key:** créala en [Google AI Studio](https://aistudio.google.com/). No la pegues en el código ni la subas a Git.
+**API key:** créala en [Google AI Studio](https://aistudio.google.com/).
 
 ---
 
@@ -36,7 +36,7 @@ cp .env.example .env
 python main.py
 ```
 
-Si no creas `.env`, `gemini_auth.py` pide la clave con `getpass` al arrancar (entrada oculta, solo esa sesión), igual que en Sprint 4.
+Si no creas `.env`, `gemini_auth.py` pide la clave con `getpass` al arrancar (entrada oculta, solo esa sesión).
 
 En Windows, si `python` no funciona: `py -3 main.py`.
 
